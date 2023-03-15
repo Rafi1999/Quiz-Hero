@@ -77,7 +77,6 @@ let submit = document.querySelector('#submit');
 
 // EventListener for quiz submit button
 submit.addEventListener('click', () => {
-    console.log('some event content here...')
     if (answers.length < 6) {
       return;
     }
